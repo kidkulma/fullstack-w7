@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1YjQ0ZDc4NTM1MzM4NDJjM2MzNGMwZmQiLCJpYXQiOjE1MzEyNDE1Mjl9.2jBuGMOdj6U2w3ZQS6kFI204HjKOPSIj1smT8E8gJ0w
+
+{
+  "title": "Testi-blogi3",
+  "author": "Kimmo K",
+  "url": "localhost:3003",
+  "userId": "5b44d7853533842c3c34c0fd"
+}
